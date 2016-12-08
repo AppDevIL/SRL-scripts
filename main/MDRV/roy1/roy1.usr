@@ -1,0 +1,110 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=hits_throughput_errors.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+MajorVersion=12
+MinorVersion=50
+LastActiveAction=Action
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.50.0.0
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+DisableRegenerate=0
+Description=
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="roy1 49__*delimiter*__roy1 40__*delimiter*__roy1 18__*delimiter*__roy1 41__*delimiter*__roy1 46__*delimiter*__roy1 29__*delimiter*__roy1 5__*delimiter*__roy1 6__*delimiter*__roy1 13__*delimiter*__roy1 27__*delimiter*__roy1 21__*delimiter*__roy1 10__*delimiter*__roy1 30__*delimiter*__roy1 11__*delimiter*__roy1 33__*delimiter*__roy1 45__*delimiter*__roy1 48__*delimiter*__roy1 2__*delimiter*__roy1 12__*delimiter*__roy1 1__*delimiter*__roy1 31__*delimiter*__roy1 39__*delimiter*__roy1 42__*delimiter*__roy1 22__*delimiter*__roy1 38__*delimiter*__roy1 24__*delimiter*__roy1 26__*delimiter*__roy1 7__*delimiter*__roy1 19__*delimiter*__roy1 28__*delimiter*__roy1 34__*delimiter*__roy1 17__*delimiter*__roy1 47__*delimiter*__roy1 3__*delimiter*__roy1 50__*delimiter*__roy1 23__*delimiter*__roy1 36__*delimiter*__roy1 8__*delimiter*__roy1 20__*delimiter*__roy1 44__*delimiter*__roy1 4__*delimiter*__roy1 32__*delimiter*__roy1 15__*delimiter*__roy1 35__*delimiter*__roy1 14__*delimiter*__roy1 37__*delimiter*__roy1 9__*delimiter*__roy1 16__*delimiter*__roy1 43__*delimiter*__roy1 25"
+[UserDataPoint]
+mic_recv=
+HTTP_200=
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
+[Transactions]
+"roy1 49"=
+"roy1 40"=
+"roy1 18"=
+"roy1 41"=
+"roy1 46"=
+"roy1 29"=
+"roy1 5"=
+"roy1 6"=
+"roy1 13"=
+"roy1 27"=
+"roy1 21"=
+"roy1 10"=
+"roy1 30"=
+"roy1 11"=
+"roy1 33"=
+"roy1 45"=
+"roy1 48"=
+"roy1 2"=
+"roy1 12"=
+"roy1 1"=
+"roy1 31"=
+"roy1 39"=
+"roy1 42"=
+"roy1 22"=
+"roy1 38"=
+"roy1 24"=
+"roy1 26"=
+"roy1 7"=
+"roy1 19"=
+"roy1 28"=
+"roy1 34"=
+"roy1 17"=
+"roy1 47"=
+"roy1 3"=
+"roy1 50"=
+"roy1 23"=
+"roy1 36"=
+"roy1 8"=
+"roy1 20"=
+"roy1 44"=
+"roy1 4"=
+"roy1 32"=
+"roy1 15"=
+"roy1 35"=
+"roy1 14"=
+"roy1 37"=
+"roy1 9"=
+"roy1 16"=
+"roy1 43"=
+"roy1 25"=

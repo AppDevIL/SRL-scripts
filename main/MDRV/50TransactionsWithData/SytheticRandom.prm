@@ -1,0 +1,16 @@
+[parameter:randp]
+Format="%lu"
+ParamName="randp"
+GenerateNewVal="EachOccurrence"
+Type="Random"
+MaxValue="10000"
+OriginalValue="transaction_1"
+MinValue="100"
+[parameter:oneToFive]
+Format="%lu"
+ParamName="oneToFive"
+GenerateNewVal="EachOccurrence"
+Type="Random"
+MaxValue="5"
+OriginalValue=""
+MinValue="1"
